@@ -2,7 +2,11 @@
 public class QueueMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Queue<Integer> queue = new Queue<>();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
+        System.out.println("Initial Queue: " + queue);
 
 	}
 
