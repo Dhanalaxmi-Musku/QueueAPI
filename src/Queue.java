@@ -7,6 +7,12 @@ public class Queue <T>{
 	    public void enqueue(T item) {
 	        list.append(item);
 	    }
+	    public T dequeue() {
+	        return list.pop();
+	    }
+	    public boolean isEmpty() {
+	        return list.size() == 0;
+	    }
 	    public int size() {
 	        return list.size();
 	    }
